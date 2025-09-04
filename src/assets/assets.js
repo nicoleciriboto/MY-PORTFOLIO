@@ -13,7 +13,7 @@ import tailwindcss from './tailwindcss.png'
 import vscode from './vscode.png'
 import dashboard from './dashboard.PNG'
 import realEstate from './real-estate.PNG'
-import superfert from './thmbnail.png'
+import superfert from './thmbnail.PNG'
 
 export const assets = {
     css,
