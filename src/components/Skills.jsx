@@ -38,12 +38,8 @@ export const Skills = () => {
 
     return (
         <section id="skills" className="py-24 px-4 relative bg-secondary/30">
-        <motion.div 
+        <div 
         className="container mx-auto max-w-5xl"
-        initial={{ opacity: 0, y: 60 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.3 }}
-        transition={{ duration: 0.8, ease: "easeOut" }}
         >
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
         My <span className="text-primary">Skills</span>
@@ -85,7 +81,7 @@ export const Skills = () => {
 
         </div>
 
-        </motion.div>
+        </div>
 
         </section>
     )
