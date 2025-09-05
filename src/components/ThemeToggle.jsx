@@ -7,12 +7,24 @@ export const ThemeToggle = () => {
 
     useEffect(() => {
         const savedTheme = localStorage.getItem("theme");
-        if (savedTheme === "dark") {
+        const isMobile = window.innerWidth <= 640;
+        if (savedTheme) {
+            if (savedTheme === "dark") {
+                setIsDarkMode(true);
+                document.documentElement.classList.add("dark");
+            } else {
+                setIsDarkMode(false);
+                document.documentElement.classList.remove("dark");
+            }
+        } else if (isMobile) {
+            // Default to dark mode on mobile
             setIsDarkMode(true);
+            localStorage.setItem("theme", "dark");
             document.documentElement.classList.add("dark");
-        }else {
-            localStorage.setItem("theme", "light");
+        } else {
             setIsDarkMode(false);
+            localStorage.setItem("theme", "light");
+            document.documentElement.classList.remove("dark");
         }
     }, []);
 
@@ -29,7 +41,7 @@ export const ThemeToggle = () => {
     }
     return (
         <button onClick={toggleTheme} 
-        className={cn("fixed max-sm:hidden top-4 right-2 z-50 p-2 rounded-full transition-colors duration-300",
+        className={cn("fixed max-sm:right-15 top-3 right-2 z-50 p-2 rounded-full transition-colors duration-300",
         "focus:outline-hidden cursor-pointer"
         )}>
             
