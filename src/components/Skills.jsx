@@ -15,7 +15,7 @@ const skills =[
     //Backend
     {name: "MySQL", category: "Backend", img: assets.mysql},
     {name: "Python", category: "Backend", img: assets.python},
-    {name: "Flask", category: "Backend", img: assets.flask},
+    {name: "Flask", category: "Backend", img: assets.flaskk},
 
     //Tools
     {name: "GitHub", category: "Tools", img: assets.github},

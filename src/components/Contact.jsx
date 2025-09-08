@@ -142,7 +142,7 @@ export const Contact = () => {
               <div>
                 <label
                   htmlFor="name"
-                  className="block text-sm font-medium mb-2"
+                  className="text-left block text-sm font-medium mb-2"
                 >
                   Your Name
                 </label>
@@ -151,7 +151,7 @@ export const Contact = () => {
                   id="name"
                   name="name"
                   required
-                  className="w-full px-4 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
+                  className="w-full py-2 px-4 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
                   placeholder="Name..."
                 />
               </div>
@@ -159,7 +159,7 @@ export const Contact = () => {
               <div>
                 <label
                   htmlFor="name"
-                  className="block text-sm font-medium mb-2"
+                  className="text-left block text-sm font-medium mb-2"
                 >
                   Your Email
                 </label>
@@ -168,7 +168,7 @@ export const Contact = () => {
                   id="email"
                   name="email"
                   required
-                  className="w-full px-4 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
+                  className="w-full py-2 px-4 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
                   placeholder="Email..."
                 />
               </div>
@@ -176,7 +176,7 @@ export const Contact = () => {
               <div>
                 <label
                   htmlFor="name"
-                  className="block text-sm font-medium mb-2"
+                  className="text-left block text-sm font-medium mb-2"
                 >
                   Your Message
                 </label>
@@ -184,8 +184,8 @@ export const Contact = () => {
                   id="message"
                   name="message"
                   required
-                  className="w-full px-4 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary resize-none"
-                  placeholder="Message..."
+                  className="w-full py-8 px-4 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary resize-none"
+                  placeholder="Hi, I'd like to..."
                 />
               </div>
 
