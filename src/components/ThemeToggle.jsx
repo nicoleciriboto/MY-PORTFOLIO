@@ -5,28 +5,23 @@ import { cn } from '@/lib/utils';
 export const ThemeToggle = () => {
     const [isDarkMode, setIsDarkMode] = useState(false);
 
-    useEffect(() => {
-        const savedTheme = localStorage.getItem("theme");
-        const isMobile = window.innerWidth <= 640;
-        if (savedTheme) {
-            if (savedTheme === "dark") {
-                setIsDarkMode(true);
-                document.documentElement.classList.add("dark");
-            } else {
-                setIsDarkMode(false);
-                document.documentElement.classList.remove("dark");
-            }
-        } else if (isMobile) {
-            // Default to dark mode on mobile
+useEffect(() => {
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme) {
+        if (savedTheme === "dark") {
             setIsDarkMode(true);
-            localStorage.setItem("theme", "dark");
             document.documentElement.classList.add("dark");
         } else {
             setIsDarkMode(false);
-            localStorage.setItem("theme", "light");
             document.documentElement.classList.remove("dark");
         }
-    }, []);
+    } else {
+        // Default to dark mode for all devices
+        setIsDarkMode(true);
+        localStorage.setItem("theme", "dark");
+        document.documentElement.classList.add("dark");
+    }
+}, []);
 
     const toggleTheme = () => {
         if (isDarkMode) {
