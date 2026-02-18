@@ -3,6 +3,39 @@ import { assets } from "../assets/assets";
 import { motion } from "framer-motion";
 
 const projects = [
+    {
+    id: 4,
+    title: "Accounting Firm Website",
+    description:
+      "A responsive modern, user-friendly website that showcases the services and expertise of an accounting firm.",
+    image: assets.accounting,
+    tags: ["React", "Typescript", "TailwindCSS"],
+    demoUrl: "https://accounting-firm-sooty.vercel.app/",
+    githubUrl: "https://github.com/nicoleciriboto/ACCOUNTING-FIRM.git",
+  },
+
+      {
+    id: 5,
+    title: "Interactive Malaria Explorer Dashboard",
+    description:
+      "A web-based only application, which is a replica of the responsive malaria dashboard project.",
+    image: assets.dashboardd,
+    tags: ["React", "TailwindCSS", "Typescript", "API Integration"],
+    demoUrl: "https://africa-malaria-dashboard.vercel.app/",
+    githubUrl: "https://github.com/nicoleciriboto/africa-malaria-watch.git",
+  },
+
+  {
+    id: 6,
+    title: "Community Portal",
+    description:
+      "The Community Portal is a full-stack web application designed to help communities connect, share posts, and manage events.",
+    image: assets.community,
+    tags: ["React", "TailwindCSS", "Typescript"],
+    demoUrl: "https://community-portal-mocha.vercel.app/",
+    githubUrl: "https://github.com/nicoleciriboto/Community-Portal.git",
+  },
+
   {
     id: 1,
     title: "Real Estate Landing Page",

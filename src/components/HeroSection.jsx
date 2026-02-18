@@ -10,11 +10,11 @@ const messageParts = [
   ],
   [
     { text: "I'm a ", className: "text-muted-foreground" },
-    { text: "Front-End Developer.", className: "text-primary" }
+    { text: "Software Developer.", className: "text-primary" }
   ],
   [
     {text: "I'm a ", className: "text-muted-foreground"},
-    {text: "Web Developer.", className: "text-primary" }
+    {text: "UI Designer & Digital Marketer.", className: "text-primary" }
   ]
 ];
 

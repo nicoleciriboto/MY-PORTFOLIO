@@ -14,6 +14,10 @@ import dashboard from './dashboard.PNG'
 import realEstate from './real-estate.PNG'
 import superfert from './thmbnail.PNG'
 import flaskk from './flaskk.png'
+import accounting from './accounting.png'
+import dashboardd from './dashoard-malaria.png'
+import community from './community-portal-login.png'
+
 
 export const assets = {
     css,
@@ -31,5 +35,8 @@ export const assets = {
     dashboard,
     realEstate,
     superfert,
-    flaskk
+    flaskk,
+    accounting,
+    dashboardd,
+    community
 }

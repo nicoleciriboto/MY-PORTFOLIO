@@ -26,10 +26,10 @@ export const About = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <h3 className="text-2xl font-semibold">
-              Passionate Front-End Developer & UI Designer
+              Experienced Software Developer & UI Designer
             </h3>
             <p className="text-muted-foreground">
-              I am a software development student specializing in front-end
+              I am a software developer with expertise in front-end
               development with a strong background in UI design and digital
               marketing.
             </p>
@@ -43,7 +43,7 @@ export const About = () => {
                 Get in Touch
               </a>
               <a
-                href="/NICOLE CIRIBOTO RESUME.pdf"
+                href="/NICOLE TAPIWANASHE CIRIBOTO_CV.pdf"
                 target="_blank"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
@@ -65,9 +65,9 @@ export const About = () => {
                   <Code className="text-primary h-6 w-6" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Web Development</h4>
+                  <h4 className="font-semibold text-lg">Software Development</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
+                    Creating responsive real world applications and systems with
                     modern frameworks
                   </p>
                 </div>
