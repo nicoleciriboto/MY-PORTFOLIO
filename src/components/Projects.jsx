@@ -3,8 +3,19 @@ import { assets } from "../assets/assets";
 import { motion } from "framer-motion";
 
 const projects = [
+{
+    id: 1,
+    title: "Hospital Management System",
+    description:
+      "A responsive modern, user-friendly website that showcases the services and expertise of an accounting firm.",
+    image: assets.health,
+    tags: ["React", "Typescript", "TailwindCSS"],
+    demoUrl: "https://haven-health-dashboard.vercel.app/",
+    githubUrl: "https://github.com/nicoleciriboto/haven-health-dashboard",
+  },
+
     {
-    id: 4,
+    id: 2,
     title: "Accounting Firm Website",
     description:
       "A responsive modern, user-friendly website that showcases the services and expertise of an accounting firm.",
@@ -15,7 +26,7 @@ const projects = [
   },
 
       {
-    id: 5,
+    id: 3,
     title: "Interactive Malaria Explorer Dashboard",
     description:
       "A web-based only application, which is a replica of the responsive malaria dashboard project.",
@@ -26,7 +37,7 @@ const projects = [
   },
 
   {
-    id: 6,
+    id: 4,
     title: "Community Portal",
     description:
       "The Community Portal is a full-stack web application designed to help communities connect, share posts, and manage events.",
@@ -37,7 +48,7 @@ const projects = [
   },
 
   {
-    id: 1,
+    id: 5,
     title: "Real Estate Landing Page",
     description:
       "A responsive landing page for a real estate company built with React and Tailwind CSS.",
@@ -48,7 +59,7 @@ const projects = [
   },
 
   {
-    id: 2,
+    id: 6,
     title: "Malaria Explorer Dashboard",
     description:
       "An interactive dashboard for exploring African malaria data built with React and Python.",
@@ -59,7 +70,7 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 7,
     title: "SuperFert Website",
     description:
       "A modern, user-friendly website that showcases Superfert’s fertilizer products and services.",

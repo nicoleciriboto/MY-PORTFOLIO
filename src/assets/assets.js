@@ -17,6 +17,7 @@ import flaskk from './flaskk.png'
 import accounting from './accounting.png'
 import dashboardd from './dashoard-malaria.png'
 import community from './community-portal-login.png'
+import health from './health.png'
 
 
 export const assets = {
@@ -38,5 +39,6 @@ export const assets = {
     flaskk,
     accounting,
     dashboardd,
-    community
+    community,
+    health
 }
