@@ -7,7 +7,7 @@ const projects = [
     id: 1,
     title: "Hospital Management System",
     description:
-      "A responsive modern, user-friendly website that showcases the services and expertise of an accounting firm.",
+    "A health metrics and insights dashboard built with modern web technologies.",
     image: assets.health,
     tags: ["React", "Typescript", "TailwindCSS"],
     demoUrl: "https://haven-health-dashboard.vercel.app/",
